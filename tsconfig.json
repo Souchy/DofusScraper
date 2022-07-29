@@ -2,6 +2,10 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "types": [
+      "node",
+      "jest"
+    ],
     // "rootDir": "src",
     "outDir": "dist",
     "sourceMap": true,
@@ -11,10 +15,6 @@
 
     "noImplicitAny": false,
     "declaration": false,
-    "types": [
-      "node",
-      "jest"
-    ],
     "typeRoots": [
       "./node_modules/@types"
     ],
@@ -28,7 +28,6 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/scrapers/pets.ts"
   ],
   "exclude": [
     "node_modules"
