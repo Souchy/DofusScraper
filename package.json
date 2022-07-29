@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "scraper.js",
   "scripts": {
+	"scraper": "ts-node src/scraper.ts",
     "start": "tsc && node dist/scraper.js",
     "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/scraper.ts"
   },
