@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer'
 
 export class Constants {
 
-	public static readonly outputdir: string = "./data/scraped/"
+	public static readonly outputdir: string = "../DofusDB/scraped/"
 
 
 	public static async getPuppeteer(url: string): Promise<puppeteer.Page> {
