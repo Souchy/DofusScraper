@@ -3,11 +3,11 @@ import puppeteer from 'puppeteer'
 import puppeteerextra from 'puppeteer-extra'
 import fs from 'fs';
 // static
-import jsonClasses from '../data/static/classes.json';
-import jsonSpellLevels from '../data/static/spellLevels.json'
+import jsonClasses from './DofusDB/static/classes.json';
+import jsonSpellLevels from './DofusDB/static/spellLevels.json'
 // scraped
-import jsonSpells from '../data/scraped/spells.json';
-import jsonPetsIds from '../data/scraped/petIds.json'
+import jsonSpells from './DofusDB/scraped/spells.json';
+import jsonPetsIds from './DofusDB/scraped/petIds.json'
 // scrapers
 import { SpellScraper } from './scrapers/spells';
 import { ItemScraper } from './scrapers/items';
@@ -23,6 +23,7 @@ const staticurl = "https://static.ankama.com/dofus/www/game/"; // + "spells/55/3
 
 // SpellScraper.scrapSpellIds();
 // SpellScraper.scrapSpellData();
+// SpellScraper.scrapSpellImg();
 
 // Pets.scrapeIds();
 // Pets.scrapeDataAll();
