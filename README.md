@@ -1,16 +1,12 @@
 # DofusScraper
-Scraper en typescript pour l'encyclopédie de Dofus
+(WIP) 
 
-Peut s'utiliser comme submodule pour exploiter les données déjà générées.
+Petit scraper en typescript pour l'encyclopédie de Dofus
 
-Contient la base de données JSON générée dans `./data/scraped/`
+Génère les données dans [DofusDB](https://github.com/Souchy/DofusDB)
 
-Contient quelques données JSON statiques dans `./data/static/`
-
----
-
-Mise en place: `npm install`
-
-Exécuter: 
-1) modifier `scraper.ts` pour appeler les scrapers voulus 
-2) commande `npm run scraper`
+- [x] Sorts
+- [x] Familiers
+- [ ] Équipements
+- [ ] Montures
+- [ ] Mises à jour du jeu (changelogs)
